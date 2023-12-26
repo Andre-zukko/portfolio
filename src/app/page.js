@@ -4,10 +4,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import LandingPhoto from "@/images/LandingPhoto.png"
 import AboutPhoto from "@/images/About.JPG"
-import programming from "@/images/programming.png"
-import wireframe from "@/images/wireframe.png"
-import figmaDesign from "@/images/figmaDesign.jpg"
-import figmaBanner from "@/images/figmaBanner.jpg"
 
 const Home = () => {
   return <>
@@ -18,7 +14,7 @@ const Home = () => {
       </div>
       <div className='text-center space-y-4'>
         <h1 className='font-bold text-5xl text-blue-500 lg:text-6xl'>Welcome to my world</h1>
-        <p className=' text-slate-400'>Place where you can find everything what you need about me</p>
+        <p className=' text-slate-400'>Place where you can find everything that you need to know about me</p>
       </div>
 
       <div className='flex flex-col justify-center items-center h-20 text-blue-500 mt-5 animate-bounce lg:hidden'>
@@ -54,12 +50,12 @@ const Home = () => {
         <h2 className='font-bold text-4xl text-blue-500 mb-6'>What I use for my project</h2>
         <div>
           <h3 className='font-bold text-2xl text-blue-500 mb-2'>TlDraw</h3>
-          <p className='text-slate-500 px-4'>TlDraw help me every time when I need see some structure before I throw my ideas from my mind to design</p>
+          <p className='text-slate-500 px-4'>TlDraw helps me every time when I need to make visual structure before I throw my ideas to my design</p>
         </div>
 
         <div>
           <h3 className='font-bold text-2xl text-blue-500 mb-2'>Figma</h3>
-          <p className='text-slate-500 px-4'>Every project what I create is first in this tool. Colors, buttons, text or some components first I need to se before I start coding.</p>
+          <p className='text-slate-500 px-4'>Every project that I create is first done with this tool. Everything, be it colors, buttons, texts, or various components, is visualized here before I'll start coding.</p>
         </div>
 
         <div className='mt-4'>

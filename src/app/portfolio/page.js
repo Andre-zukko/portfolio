@@ -13,15 +13,15 @@ const Portfolio = () => {
           <FaRegImages /> 
         </div>
         <h2 className='text-slate-500 text-2xl flex items-center justify-center h-20'>This section 
-          <span className='border-b-4 border-blue-500 font-semibold ml-2 mr-2'>still waiting</span>
+          <span className='border-b-4 border-blue-500 font-semibold ml-2 mr-2'>is still waiting</span>
           for your 
-          <span className='text-blue-500 font-semibold ml-2 mr-2'>offer</span>
+          <span className='text-blue-500 font-semibold ml-2 mr-2'>offers</span>
           <span className='text-4xl text-blue-500'> <MdOutlineLocalOffer /> </span>
         </h2>
       </div>
 
       <div>
-        <p className='text-slate-400 text-center'>Of course this website is one of my projects so hopefuly It's good enough for you.</p>
+        <p className='text-slate-400 text-center'>Of course, this website is one of my projects so hopefuly, it's good enough for you.</p>
       </div>
       
     </section>
