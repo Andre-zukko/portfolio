@@ -20,9 +20,9 @@ const TechStack = () => {
       <p className='text-slate-400'>In the ever-evolving landscape of web development, my journey is characterized by a carefully curated tech stack that empowers me to bring digital visions to life. Let me take you through the tools and technologies that form the backbone of my coding endeavors.</p>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500'>Tl Draw
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 sm:text-xl'>Tl Draw
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for Wireframes</span>
-          <span className='text-4xl '> <MdDraw /> </span>
+          <span className='text-4xl sm:text-2xl'> <MdDraw /> </span>
         </h2>
         <p className='text-slate-400'>Visualization is key, and for me, it starts with tl;draw. This intuitive tool is my go-to for crafting wireframes that lay the foundation for seamless user experiences. Whether it's brainstorming new project ideas or refining existing ones, tl;draw allows me to sketch out concepts effortlessly, translating abstract ideas into tangible blueprints.</p>
       </div>
