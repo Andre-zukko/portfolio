@@ -25,9 +25,9 @@ const Home = () => {
     <section className='flex flex-col justify-center items-center space-y-5 bg-blue-500  min-h-[50vh] p-8'>
       <h2 className='font-bold text-4xl text-white mb-8 z-10'>Portfolio</h2>
       <Link href="/portfolio" className='lg:border lg:text-blue-500 lg:border-blue-500 lg:rounded-xl lg:px-6 lg:py-2 lg:font-bold lg:transition lg:ease-in-out lg:delay-150 lg:bg-white lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:bg-blue-500 lg:hover:text-white lg:duration-300
-                                        sm:border sm:text-blue-500 sm:rounded-xl sm:px-6 sm:py-2 sm:font-bold sm:bg-white'>Websites</Link>
+                                        sm:border sm:text-blue-500 sm:rounded-xl sm:px-6 sm:py-2 sm:font-bold sm:bg-white max-sm:text-white'>Websites</Link>
       <Link href="/portfolio" className='lg:border lg:text-blue-500 lg:border-blue-500 lg:rounded-xl lg:px-6 lg:py-2 lg:font-bold lg:transition lg:ease-in-out lg:delay-150 lg:bg-white lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:bg-blue-500 lg:hover:text-white duration-300
-                                          sm:border sm:text-blue-500 sm:rounded-xl sm:px-6 sm:py-2 sm:font-bold sm:bg-white'>Design</Link>
+                                          sm:border sm:text-blue-500 sm:rounded-xl sm:px-6 sm:py-2 sm:font-bold sm:bg-white max-sm:text-white'>Design</Link>
     </section>
 
     <section className='flex flex-col justify-center items-center min-h-[90vh] space-y-6 text-center m-8 p-8 border-b border-blue-500
@@ -59,7 +59,7 @@ const Home = () => {
         </div>
 
         <div className='mt-4'>
-          <Link href="/techstack" className='border text-blue-500 border-blue-500 rounded-xl px-6 py-2 font-bold lg:transition lg:ease-in-out delay-150 lg:bg-white lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:bg-blue-500 lg:hover:text-white duration-300'>See all of my Tech stack</Link>
+          <Link href="/techstack" className='border text-blue-500 border-blue-500 rounded-xl px-6 py-2 font-bold lg:transition lg:ease-in-out delay-150 lg:bg-white lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:bg-blue-500 lg:hover:text-white duration-300 max-sm:flex'>See all of my Tech stack</Link>
         </div>
 
       </div>
