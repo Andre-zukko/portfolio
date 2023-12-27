@@ -29,7 +29,7 @@ const Nav = () => {
                     <NavLinks />
                 </div>
 
-                <div className='md:hidden'>
+                <div className='md:hidden max-sm:text-blue-500'>
                     <button onClick={toggleNavbar}> {isOpen ? <X /> : <Menu />} </button>
                 </div>
             </nav>
