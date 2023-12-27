@@ -59,7 +59,7 @@ const Home = () => {
         </div>
 
         <div className='mt-4'>
-          <Link href="/techstack" className='border text-blue-500 border-blue-500 rounded-xl px-6 py-2 font-bold lg:transition lg:ease-in-out delay-150 lg:bg-white lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:bg-blue-500 lg:hover:text-white duration-300 max-sm:flex'>See all of my Tech stack</Link>
+          <Link href="/techstack" className='border text-blue-500 border-blue-500 rounded-xl px-6 py-2 font-bold lg:transition lg:ease-in-out delay-150 lg:bg-white lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:bg-blue-500 lg:hover:text-white duration-300'>See all of my Tech stack</Link>
         </div>
 
       </div>
