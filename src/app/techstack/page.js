@@ -20,7 +20,7 @@ const TechStack = () => {
       <p className='text-slate-400'>In the ever-evolving landscape of web development, my journey is characterized by a carefully curated tech stack that empowers me to bring digital visions to life. Let me take you through the tools and technologies that form the backbone of my coding endeavors.</p>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 sm:text-xl'>Tl Draw
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 sm:text-xl max-sm:flex-col max-sm:text-center max-sm:space-y-4'>Tl Draw
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for Wireframes</span>
           <span className='text-4xl sm:text-2xl'> <MdDraw /> </span>
         </h2>
@@ -28,7 +28,7 @@ const TechStack = () => {
       </div>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500'>Figma
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 max-sm:flex-col max-sm:text-center max-sm:space-y-4'>Figma
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for High-Quality Designs</span>
           <span className='text-4xl '> <FaFigma /> </span>
         </h2>
@@ -36,7 +36,7 @@ const TechStack = () => {
       </div>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500'>ReactJS
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 max-sm:flex-col max-sm:text-center max-sm:space-y-4'>ReactJS
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for Coding Structure</span>
           <span className='text-4xl '> <FaReact /> </span>
         </h2>
@@ -44,7 +44,7 @@ const TechStack = () => {
       </div>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500'>Tailwind
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 max-sm:flex-col max-sm:text-center max-sm:space-y-4'>Tailwind
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for Styles</span>
           <span className='text-4xl '> <SiTailwindcss /> </span>
         </h2>
@@ -52,7 +52,7 @@ const TechStack = () => {
       </div>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500'>Next JS
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 max-sm:flex-col max-sm:text-center max-sm:space-y-4'>Next JS
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for better work in react</span>
           <span className='text-4xl '> <TbBrandNextjs /> </span>
         </h2>
@@ -60,7 +60,7 @@ const TechStack = () => {
       </div>
 
       <div>
-        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500'>Git + GitHub
+        <h2 className='flex justify-center items-center p-6 font-bold text-2xl space-x-2 text-blue-500 max-sm:flex-col max-sm:text-center max-sm:space-y-4'>Git + GitHub
           <span className='ml-2 font-normal text-slate-500 border-b-4 border-blue-500 '>for version control</span>
           <span className='text-4xl flex '> <FaGitAlt /> + <FaGithub /> </span>
         </h2>
